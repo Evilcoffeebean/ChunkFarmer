@@ -1,4 +1,8 @@
+dev\chunkfarmer\engine\BlockStorage.class
+dev\chunkfarmer\engine\events\BlockBreakListener.class
+dev\chunkfarmer\engine\BlockData.class
 dev\chunkfarmer\engine\utils\StringUtils.class
 dev\chunkfarmer\engine\commands\ICommand.class
+dev\chunkfarmer\engine\BlockManager.class
 dev\chunkfarmer\engine\commands\CommandBase.class
 dev\chunkfarmer\engine\Core.class
