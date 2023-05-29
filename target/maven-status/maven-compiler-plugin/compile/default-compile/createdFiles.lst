@@ -1,0 +1,4 @@
+dev\chunkfarmer\engine\utils\StringUtils.class
+dev\chunkfarmer\engine\commands\ICommand.class
+dev\chunkfarmer\engine\commands\CommandBase.class
+dev\chunkfarmer\engine\Core.class

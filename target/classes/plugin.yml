@@ -1,0 +1,15 @@
+name: ChunkFarmer
+authors:
+  - deathibring
+  - Nyvil
+version: 1.0-SNAPSHOT
+api-version: 1.19
+load: POSTWORLD
+description: An automatic chunk farming plugin.
+main: dev.chunkfarmer.engine.Core
+depend:
+  - Vault
+commands:
+  chunkfarmer:
+    description: ChunkFarmer base command.
+    aliases: [chunk, cf, farmer]
