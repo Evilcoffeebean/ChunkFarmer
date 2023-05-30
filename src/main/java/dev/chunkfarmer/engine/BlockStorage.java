@@ -28,11 +28,11 @@ public final class BlockStorage {
     public void saveBlockData(List<BlockData> dataList) {
         JsonArray jsonArray = new JsonArray();
         for (BlockData data : dataList) {
-
             JsonObject obj = new JsonObject();
             obj.addProperty("x", data.getLocation().getX());
             obj.addProperty("y", data.getLocation().getY());
             obj.addProperty("z", data.getLocation().getZ());
+            obj.addProperty("world", data.getLocation().getWorld().getName());
             obj.addProperty("material", data.getMaterialName());
             jsonArray.add(obj);
         }
